@@ -1,0 +1,187 @@
+/* Global Start */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.g-button {
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: #000;
+  color: #fff;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+}
+.global-section .global-heading {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 800;
+}
+.global-section .global-sub-heading {
+  color: gray;
+  text-align: center;
+}
+/* Global End */
+/* Navbar  */
+header{
+  background-color: #000;
+  color: #f9f6f5;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+.header-main .header-text{
+  padding-left: 20px;
+}
+.main-menu ul li{
+  display: inline;
+  list-style: none;
+  padding-left: 20px;
+}
+.main-menu ul li:last-child{
+  padding-right: 20px;
+}
+.main-menu ul li a{
+  text-decoration: none;
+  color: white;
+}
+/* Hero Section start */
+
+.hero-section {
+  background-image: url(./image/hero3.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-position: left; */
+  background-size: cover;
+  padding: 10rem 0;
+  text-align: center;
+}
+.hero-section p {
+  font-size: 18px;
+  color: white;
+}
+.hero-section h2 {
+  margin: 10px 0;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 45px;
+}
+
+/* About Section start */
+
+.global-section .about-main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.global-section img {
+  height: 400px;
+}
+.about-main-div p {
+  color: gray;
+  margin: 20px 0;
+}
+.global-section .text {
+  width: 500px;
+}
+/* About Section end */
+
+/* Service Section start*/
+
+.grid {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr);
+   */
+   grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding-bottom: 20px;
+}
+.grid-single {
+  padding: 30px;
+  text-align: center;
+  /* background-color: #f6f6f6; */
+}
+.grid-single img {
+  width: 100px;
+  height: 100px;
+}
+.grid-single i {
+  font-size: 15px;
+}
+
+/* service section end */
+
+/* work  start*/
+.grid-single-work img{
+    width: 150px;
+  height: 150px;
+}
+.grid-single-work {
+  padding: 30px;
+  
+  text-align: center;
+  /* background-color: #f6f6f6; */
+}
+.defult{
+    margin: 5px 5px;
+    background-color: #f9f6f5;
+}
+/* Work end */
+
+.grid-single-testmonial{
+    padding: 30px;
+    text-align: center;
+    /* border: 2px solid; */
+}
+.grid-single-testmonial img{
+  /* width: 20px;
+   */
+   height: 55px;
+}
+.grid-single-testmonial .testmonial-text{
+  color: #000 !important;
+  width: auto;
+  text-align: center;
+}
+
+/* Contact Section */
+.contact-me .global-heading{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.contact-me form, input{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+.forn-button{
+  margin-top: 5px;
+  width: 150px;
+  height: 41px;
+  background-color: #000;
+  color: #f9f6f5;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+footer{
+  height: 70px;
+  margin-top: 20px;
+  background-color: #000;
+}
+footer p{
+  color: gray;
+  text-align: center; 
+  padding-top: 30px;
+  font-size: 15px;
+}
